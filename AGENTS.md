@@ -7,6 +7,11 @@ Le produit doit permettre à plusieurs utilisateurs, chacun depuis son navigateu
 Le plateau est partagé entre les participants : chaque utilisateur doit pouvoir rejoindre le plateau, voir son état courant et observer les changements effectués par les autres participants.
 
 Les déplacements de cartes réalisés dans un navigateur doivent être propagés aux autres navigateurs afin que tous les participants conservent une vision cohérente du plateau.
+Le produit doit permettre à plusieurs utilisateurs, depuis des navigateurs web distincts, de visualiser et de partager un même plateau de jeu.
+
+Chaque utilisateur doit pouvoir rejoindre un plateau partagé, voir l'état courant du plateau et observer les changements effectués par les autres participants.
+
+Les utilisateurs doivent pouvoir interagir avec ce plateau partagé, notamment pour y déplacer des cartes. Les déplacements de cartes doivent être propagés aux autres navigateurs afin que tous les participants conservent une vision cohérente du plateau.
 
 ## Lisibilité et qualité du code
 
