@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>6 qui prend</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div>
+        <h1>6 qui prend</h1>
+        <p id="connection-status" class="connection-status">Connexion...</p>
+      </div>
+      <form id="player-name-form" class="player-form" aria-label="Nom du joueur">
+        <input id="player-name" name="name" maxlength="32" autocomplete="off" />
+        <button type="submit">Renommer</button>
+      </form>
+    </header>
+
+    <main class="game-layout">
+      <section class="table-area" aria-label="Zone de jeu">
+        <div class="table-header">
+          <h2>Plateau commun</h2>
+          <span id="board-count" class="board-count">0 carte</span>
+        </div>
+        <section id="board" class="board" aria-label="Plateau de jeu partagé"></section>
+      </section>
+
+      <aside class="side-panel" aria-label="Joueurs">
+        <section class="panel-section">
+          <h2>Ma main</h2>
+          <div id="my-hand" class="hand own-hand" aria-label="Votre main"></div>
+        </section>
+
+        <section class="panel-section">
+          <h2>Autres joueurs</h2>
+          <div id="opponents" class="opponents" aria-live="polite"></div>
+        </section>
+      </aside>
+    </main>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>
